@@ -1,0 +1,55 @@
+name: 问题反馈
+description: 登录、任务、恢复或运行遇到问题时，提供可复现的信息。
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前可先查看 [常见问题](https://github.com/chuyc11/Easy-Cidaren-Fixed/blob/main/docs/FAQ.md)。
+        请不要填写真实 Token、API Key、姓名或学号；截图与日志先去除个人信息。
+  - type: input
+    id: version
+    attributes:
+      label: 程序版本
+      placeholder: 例如 v2026.10.06
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows 版本与运行方式
+      placeholder: 例如 Windows 11 x64，下载运行包并完整解压
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题出现在哪个环节？
+      options:
+        - 下载或启动
+        - 登录或任务列表
+        - 班级自学任务
+        - 班级测试任务
+        - 中断恢复或报告
+        - AI 配置
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 操作步骤、预期结果与实际结果
+      description: 描述问题出现前的操作，以及右侧输出信息。不要粘贴完整个人任务记录。
+      placeholder: |
+        1. 打开程序并登录
+        2. 切换任务类型
+        3. 点击开始后出现……
+        预期结果：……
+        实际结果：……
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 错误信息或已去除个人信息的截图
+      description: 如有报错，请提供相关片段即可。

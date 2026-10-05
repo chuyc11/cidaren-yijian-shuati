@@ -1,17 +1,17 @@
-# Easy Cidaren 修复版 · 词达人桌面工具
+# 词达人一键刷题
 
 **把班级任务、进度查看和中断恢复放在一个桌面窗口里。**
 
-面向词达人班级自学与班级测试任务，修复任务处理流程，优化重复加载和等待，并提供可直接运行的 Windows 版本。
+词达人一键刷题（Cidaren / VocabGo）面向班级自学与班级测试任务，修复任务处理流程，优化重复加载和等待，并提供可直接运行的 Windows 版本。
 
-[![Release](https://img.shields.io/github/v/release/chuyc11/Easy-Cidaren-Fixed?label=Release)](https://github.com/chuyc11/Easy-Cidaren-Fixed/releases/latest)
+[![Release](https://img.shields.io/github/v/release/chuyc11/cidaren-yijian-shuati?label=Release)](https://github.com/chuyc11/cidaren-yijian-shuati/releases/latest)
 ![Windows x64](https://img.shields.io/badge/Windows-x64-0078D4)
 ![Ready to run](https://img.shields.io/badge/Run-No_Python_needed-16803C)
 [![GPLv3](https://img.shields.io/badge/License-GPLv3-blue)](LICENSE)
 
-### [下载 Windows 运行包 →](https://github.com/chuyc11/Easy-Cidaren-Fixed/releases/latest/download/Easy_Cidaren_Fixed-windows-x64.zip)
+### [下载 Windows 运行包 →](https://github.com/chuyc11/cidaren-yijian-shuati/releases/latest/download/Easy_Cidaren_Fixed-windows-x64.zip)
 
-[三步上手](#三步上手) · [详细使用指南](docs/QUICKSTART.md) · [常见问题](docs/FAQ.md) · [反馈问题](https://github.com/chuyc11/Easy-Cidaren-Fixed/issues/new/choose)
+[三步上手](#三步上手) · [详细使用指南](docs/QUICKSTART.md) · [常见问题](docs/FAQ.md) · [反馈问题](https://github.com/chuyc11/cidaren-yijian-shuati/issues/new/choose)
 
 Windows 64 位 · 压缩包约 99 MB · 完整解压即可运行 · 无需安装 Python · AI 配置可选
 
@@ -31,13 +31,13 @@ Windows 64 位 · 压缩包约 99 MB · 完整解压即可运行 · 无需安装
 
 ## 界面预览
 
-![Easy Cidaren 未登录主界面：任务选择、进度、报告与恢复入口](docs/images/main-window.png)
+![词达人一键刷题未登录主界面：任务选择、进度、报告与恢复入口](docs/images/main-window.png)
 
 *真实主界面的未登录预览，不含账号、Token 或个人任务数据。*
 
 ## 三步上手
 
-1. **下载并完整解压**：[Windows 运行包](https://github.com/chuyc11/Easy-Cidaren-Fixed/releases/latest/download/Easy_Cidaren_Fixed-windows-x64.zip)。选择一个可写文件夹，保留包内所有文件。
+1. **下载并完整解压**：[Windows 运行包](https://github.com/chuyc11/cidaren-yijian-shuati/releases/latest/download/Easy_Cidaren_Fixed-windows-x64.zip)。选择一个可写文件夹，保留包内所有文件。
 2. **打开并登录**：双击 `Easy_Cidaren_Fixed.exe`，输入自己的有效 Token，点击「登录」。
 3. **选择并开始**：切换「班级自学任务」或「班级测试任务」，选中任务后点击「开始任务」。需要依次处理多个任务时，可使用「一键刷题」。
 
@@ -57,7 +57,7 @@ Windows 64 位 · 压缩包约 99 MB · 完整解压即可运行 · 无需安装
 | 运行时依赖 | 移除环境中的 Python 路径后，打包程序自检通过 |
 | 公开下载 | 未登录 GitHub 的下载验证通过，文件 SHA-256 与上传前一致 |
 
-回归与成品自检使用离线、合成数据，不代表所有课程和题型都能得到相同结果。版本变化见 [CHANGELOG.md](CHANGELOG.md)，下载校验文件见 [Releases](https://github.com/chuyc11/Easy-Cidaren-Fixed/releases/latest)。
+回归与成品自检使用离线、合成数据，不代表所有课程和题型都能得到相同结果。版本变化见 [CHANGELOG.md](CHANGELOG.md)，下载校验文件见 [Releases](https://github.com/chuyc11/cidaren-yijian-shuati/releases/latest)。
 
 ## 设置与 AI 配置
 
@@ -72,10 +72,10 @@ AI 为可选功能：将 `config/ai_config.example.json` 复制为 `config/ai_co
 - **不知道下哪个文件？** 下载名称含 `windows-x64` 的 ZIP；`source.zip` 是给源码使用者的。
 - **Token 失效或任务未显示？** 查看 [登录与任务问题](docs/FAQ.md#登录与任务)。
 - **没有可靠答案、任务中断或速度不理想？** 查看 [运行与恢复](docs/FAQ.md#运行与恢复)。
-- **遇到新的题型或可复现的问题？** [提交问题](https://github.com/chuyc11/Easy-Cidaren-Fixed/issues/new?template=bug_report.yml)，附上版本、操作步骤和已去除个人信息的报错。
-- **有改进建议？** [提出功能建议](https://github.com/chuyc11/Easy-Cidaren-Fixed/issues/new?template=feature_request.yml)。
+- **遇到新的题型或可复现的问题？** [提交问题](https://github.com/chuyc11/cidaren-yijian-shuati/issues/new?template=bug_report.yml)，附上版本、操作步骤和已去除个人信息的报错。
+- **有改进建议？** [提出功能建议](https://github.com/chuyc11/cidaren-yijian-shuati/issues/new?template=feature_request.yml)。
 
-如果这个版本帮到了你，欢迎点一个 **Star**，也可以把[项目首页](https://github.com/chuyc11/Easy-Cidaren-Fixed)分享给需要的朋友。
+如果这个版本帮到了你，欢迎点一个 **Star**，也可以把[项目首页](https://github.com/chuyc11/cidaren-yijian-shuati)分享给需要的朋友。
 
 ## 从源码运行与构建
 

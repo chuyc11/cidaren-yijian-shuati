@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: 使用指南与下载说明
-    url: https://github.com/chuyc11/Easy-Cidaren-Fixed/blob/main/docs/QUICKSTART.md
+    url: https://github.com/chuyc11/cidaren-yijian-shuati/blob/main/docs/QUICKSTART.md
     about: 下载、登录、任务选择、恢复与可选 AI 配置。
   - name: 常见问题
-    url: https://github.com/chuyc11/Easy-Cidaren-Fixed/blob/main/docs/FAQ.md
+    url: https://github.com/chuyc11/cidaren-yijian-shuati/blob/main/docs/FAQ.md
     about: 启动、Token、任务状态和速度等问题的说明。

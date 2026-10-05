@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        提交前可先查看 [常见问题](https://github.com/chuyc11/Easy-Cidaren-Fixed/blob/main/docs/FAQ.md)。
+        提交前可先查看 [常见问题](https://github.com/chuyc11/cidaren-yijian-shuati/blob/main/docs/FAQ.md)。
         请不要填写真实 Token、API Key、姓名或学号；截图与日志先去除个人信息。
   - type: input
     id: version

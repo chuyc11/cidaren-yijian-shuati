@@ -1,6 +1,6 @@
 # 常见问题
 
-[返回首页](../README.md) · [使用指南](QUICKSTART.md) · [反馈问题](https://github.com/chuyc11/Easy-Cidaren-Fixed/issues/new/choose)
+[返回首页](../README.md) · [使用指南](QUICKSTART.md) · [反馈问题](https://github.com/chuyc11/cidaren-yijian-shuati/issues/new/choose)
 
 ## 下载与启动
 
@@ -60,4 +60,4 @@ Windows 运行包已经包含 Python 运行依赖与本地英语模型，不需�
 
 ### 怎样提问更容易定位问题？
 
-使用[问题反馈表](https://github.com/chuyc11/Easy-Cidaren-Fixed/issues/new?template=bug_report.yml)，填写版本、Windows 版本、任务类型、复现步骤和错误信息。截图与日志先去除姓名、账号、Token 和 API Key。无需提供真实班级题库或完整个人任务记录。
+使用[问题反馈表](https://github.com/chuyc11/cidaren-yijian-shuati/issues/new?template=bug_report.yml)，填写版本、Windows 版本、任务类型、复现步骤和错误信息。截图与日志先去除姓名、账号、Token 和 API Key。无需提供真实班级题库或完整个人任务记录。

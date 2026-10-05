@@ -1,6 +1,6 @@
 # 使用指南
 
-[返回项目首页](../README.md) · [常见问题](FAQ.md) · [下载最新版本](https://github.com/chuyc11/Easy-Cidaren-Fixed/releases/latest)
+[返回项目首页](../README.md) · [常见问题](FAQ.md) · [下载最新版本](https://github.com/chuyc11/cidaren-yijian-shuati/releases/latest)
 
 ## 下载与打开
 
@@ -63,6 +63,6 @@
 
 ## 更新与分享
 
-新版本从 [GitHub Releases](https://github.com/chuyc11/Easy-Cidaren-Fixed/releases/latest) 下载。建议先解压到独立目录，确认可运行后再使用；保留旧目录便于查阅自己的配置和记录。
+新版本从 [GitHub Releases](https://github.com/chuyc11/cidaren-yijian-shuati/releases/latest) 下载。建议先解压到独立目录，确认可运行后再使用；保留旧目录便于查阅自己的配置和记录。
 
-分享给朋友时，推荐发送[项目首页](https://github.com/chuyc11/Easy-Cidaren-Fixed)或[运行包链接](https://github.com/chuyc11/Easy-Cidaren-Fixed/releases/latest/download/Easy_Cidaren_Fixed-windows-x64.zip)。原始下载包不含你的账号数据，每个人使用自己的 Token 与可选 AI 配置。
+分享给朋友时，推荐发送[项目首页](https://github.com/chuyc11/cidaren-yijian-shuati)或[运行包链接](https://github.com/chuyc11/cidaren-yijian-shuati/releases/latest/download/Easy_Cidaren_Fixed-windows-x64.zip)。原始下载包不含你的账号数据，每个人使用自己的 Token 与可选 AI 配置。

@@ -1,6 +1,6 @@
 # 第三方许可与归属
 
-Easy Cidaren 修复版保留上游项目的 GPLv3 许可。完整 GPLv3 正文见根目录 `LICENSE`。
+词达人一键刷题（基于 Easy Cidaren 的修复版）保留上游项目的 GPLv3 许可。完整 GPLv3 正文见根目录 `LICENSE`。
 
 ## 上游项目
 

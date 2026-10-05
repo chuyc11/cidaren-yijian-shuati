@@ -1,0 +1,5 @@
+spacy==3.7.2
+PyQt6==6.7.0
+Requests==2.32.2
+Brotli==1.1.0
+playsound==1.2.2

@@ -1,0 +1,65 @@
+# Python 环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地密钥与凭证
+.env
+.env.*
+!.env.example
+config/ai_config.json
+**/token.txt
+**/capture.log
+*.pem
+*.key
+*.p12
+*.pfx
+.mitmproxy/
+
+# 每位使用者自己的状态与学习数据
+config/task_resume.json
+config/task_resume/
+config/answer_lib.json
+config/word_pool.json
+cache/
+log/logs/
+log/task_reports/
+log/*.json
+*.log
+
+# 原始服务器响应、工作记录与个人测试材料
+tests/fixtures/
+/work/
+/outputs/
+/*记录*.json
+/*进度*.json
+/*核对*.json
+/*实测*.json
+/*对比*.json
+/*记录*.md
+/*进度*.md
+/*复核*.md
+/*实测*.md
+/*对比*.md
+
+# 本版不发布第三方 Token 抓取工具
+get token/
+
+# 本地构建产物通过 Release 分发
+build/
+dist/
+*.exe
+*.dll
+*.zip
+
+# 编辑器与系统临时文件
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak

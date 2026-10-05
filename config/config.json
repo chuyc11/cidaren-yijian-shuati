@@ -1,0 +1,16 @@
+{
+  "min_time": 2,
+  "max_time": 2,
+  "spend_min_time": 5,
+  "spend_max_time": 15,
+  "br_choices": true,
+  "accept_encoding": "gzip, deflate, br",
+  "version": "2026.10.06",
+  "know_version": "2026.10.06",
+  "read": true,
+  "fast_mode": true,
+  "play_music": false,
+  "music_path": "",
+  "self_learn_lib": true,
+  "self_learn_pool": true
+}
